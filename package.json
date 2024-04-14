@@ -48,6 +48,8 @@
     "lint:fix": "eslint --fix ."
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.13.3",
+    "@antfu/ni": "^0.21.9",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@commitlint/types": "^19.0.3",
@@ -55,8 +57,6 @@
     "@types/node": "^20.9.0",
     "@types/vscode": "^1.84.1",
     "@vscode/vsce": "^2.22.0",
-    "@yunsii/eslint-config": "^2.13.3",
-    "@yunsii/ni": "^0.21.9",
     "bumpp": "^9.2.0",
     "eslint": "npm:eslint-ts-patch@8.57.0-0",
     "eslint-plugin-format": "^0.1.0",
