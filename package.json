@@ -52,7 +52,7 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "release": "bumpp && nr publish",
-    "prepare": "husky install",
+    "prepare": "husky install & nr update",
     "update": "vscode-ext-gen --output src/generated/meta.ts",
     "lint:fix": "eslint --flag unstable_ts_config --fix ."
   },
